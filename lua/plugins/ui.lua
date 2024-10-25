@@ -42,7 +42,7 @@ return {
     event = "VeryLazy",
     opts = {
       options = {
-        theme = "catppuccin",
+        theme = "tokyonight-night",
       },
     },
   },
@@ -50,7 +50,6 @@ return {
   -- filename
   {
     "b0o/incline.nvim",
-    dependencies = { "catppuccin/nvim" },
     event = "BufReadPre",
     priority = 1200,
     config = function()
