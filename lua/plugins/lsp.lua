@@ -13,6 +13,7 @@ return {
         "deno",
         "rust-analyzer",
         "pyright",
+        "gdtoolkit",
       })
     end,
   },
